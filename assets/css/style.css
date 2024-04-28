@@ -1,0 +1,104 @@
+/* colours */
+
+.bg-color-name-title {
+    background-color: #cbd5c0;
+    color: #5b3e31;
+}
+
+/* Fonts */
+
+.name-title {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.name-title h2 {
+    color: #a08679;
+    padding-left: 5px;
+}
+
+/* Nav bar */
+.logo {
+    background: url(../images/logo-color.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.bg-color-main {
+    background-color: #cbd5c0;
+}
+
+.bg-color-right {
+    background-color: #a08679;
+}
+
+/* buttons */
+.btn-primary {
+    background-color: #765341;
+    color: #cbd5c0;
+    border: none;
+    padding: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #5b3e31;
+    transition: all .6s ease-in;
+}
+
+/* The Modal (background) */
+
+.modal {
+display: none;
+position: fixed;
+z-index: 1; 
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto; 
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: #FEFEFE;
+ margin: 15% auto; /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #888;
+ width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+
+.close {
+ color: #5b3e31;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #765341;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    background-color: aquamarine;
+    position: static;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
